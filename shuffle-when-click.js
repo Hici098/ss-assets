@@ -1,4 +1,3 @@
-<script>
 (function() {
   function tpShuffle(el) {
     const items = Array.from(el.children);
@@ -30,4 +29,3 @@
     setupClickShuffle();
   }).observe(document.body, { childList: true, subtree: true });
 })();
-</script>
